@@ -1,0 +1,21 @@
+settings set target.x86-disassembly-flavor intel
+settings set prompt "(mzhelezn) "
+script print "\033[31m"
+script print "                   _  _                "
+script print "                   \\\ \\\             "
+script print "                   ) \\\ \\\    _p_    "
+script print "                   )^\))\))  /  *\     "
+script print "                    \_|| || / /^-xx    "
+script print "           __       -\ \\\--/ /        "
+script print "         </  \\\___/   ___. )          "
+script print "               ====\ )___/\\\          "
+script print "                   //      \\\         "
+script print "                   \\\      //           "
+script print "                      +=========+      "
+script print "                      |Draconic |      "
+script print "Art by                |Leaks    |      "
+script print "   mzhelezn team      |of Abyss |      "
+script print "                      ###########      "
+script print "\033[0m"
+command script import ./../02-script/reverse.py
+

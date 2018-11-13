@@ -1,0 +1,6 @@
+thread backtrace all$
+frame select 12$frame info$
+frame select -relative=4$register read$
+register write rax 521$register read --all$
+memory read --size 4 --format x --count 4 0xdeadbeef$memory read `argv[4]`$
+thread step-in$thread step-out$
